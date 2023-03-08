@@ -17,7 +17,7 @@ public class MobSimulationPlusItemsSetup {
 
         public static void setup(@Nonnull MobSimulationPlus plugin)
         {
-            new MobDataCard("Phantom", MobDataTier.ADVANCED, new ItemStack[]{
+            new MobDataCard("Phantom+", MobDataTier.ADVANCED, new ItemStack[]{
                     new ItemStack(Material.PHANTOM_MEMBRANE, 32), new ItemStack(Material.PHANTOM_MEMBRANE, 32), new ItemStack(Material.PHANTOM_MEMBRANE, 32),
                     new ItemStack(Material.PHANTOM_MEMBRANE, 32), MobData.EMPTY_DATA_CARD, new ItemStack(Material.PHANTOM_MEMBRANE, 32),
                     new ItemStack(Material.PHANTOM_MEMBRANE, 32), new ItemStack(Material.PHANTOM_MEMBRANE, 32), new ItemStack(Material.PHANTOM_MEMBRANE, 32),
@@ -25,7 +25,7 @@ public class MobSimulationPlusItemsSetup {
                     .addDrop(Material.PHANTOM_MEMBRANE, 1)
                     .addDrop(Material.ELYTRA, 2500)
                     .register(plugin);
-            new MobDataCard("鸡+", MobDataTier.ADVANCED, new ItemStack[]{
+            new MobDataCard("Chicken+", MobDataTier.ADVANCED, new ItemStack[]{
                     new ItemStack(Material.EGG, 16), new ItemStack(Material.EGG, 16), new ItemStack(Material.EGG, 16),
                     new ItemStack(Material.EGG, 16), MobData.CHICKEN, new ItemStack(Material.EGG, 16),
                     new ItemStack(Material.EGG, 16), new ItemStack(Material.EGG, 16), new ItemStack(Material.EGG, 16)
@@ -34,7 +34,7 @@ public class MobSimulationPlusItemsSetup {
                     .addDrop(Material.FEATHER, 1)
                     .addDrop(Material.EGG, 1)
                     .register(plugin);
-            new MobDataCard("彩虹羊", MobDataTier.ADVANCED, new ItemStack[]{
+            new MobDataCard("Rainbow Sheep", MobDataTier.ADVANCED, new ItemStack[]{
                     new SlimefunItemStack(SlimefunItems.RAINBOW_WOOL, 16), new SlimefunItemStack(SlimefunItems.RAINBOW_WOOL, 16), new SlimefunItemStack(SlimefunItems.RAINBOW_WOOL, 16),
                     new SlimefunItemStack(SlimefunItems.RAINBOW_WOOL, 16), MobData.SHEEP, new SlimefunItemStack(SlimefunItems.RAINBOW_WOOL, 16),
                     new SlimefunItemStack(SlimefunItems.RAINBOW_WOOL, 16), new SlimefunItemStack(SlimefunItems.RAINBOW_WOOL, 16), new SlimefunItemStack(SlimefunItems.RAINBOW_WOOL, 16)
@@ -113,7 +113,7 @@ public class MobSimulationPlusItemsSetup {
                     .addDrop(Material.TOTEM_OF_UNDYING, 100)
 
                     .register(plugin);
-            new MobDataCard("女巫+", MobDataTier.ADVANCED, new ItemStack[]{
+            new MobDataCard("Witch+", MobDataTier.ADVANCED, new ItemStack[]{
                     new ItemStack(Material.STICK, 64), new ItemStack(Material.GLASS_BOTTLE, 64), new ItemStack(Material.GLOWSTONE, 64),
                     new ItemStack(Material.GUNPOWDER, 64), MobData.WITCH, new ItemStack(Material.REDSTONE_BLOCK, 64),
                     new ItemStack(Material.SPIDER_EYE, 64), new ItemStack(Material.SUGAR, 64), new ItemStack(Material.CAULDRON, 64),
