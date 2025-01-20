@@ -34,7 +34,7 @@ public class MobSimulationPlusItemsSetup {
                     .addDrop(Material.FEATHER, 1)
                     .addDrop(Material.EGG, 1)
                     .register(plugin);
-            new MobDataCard("Sheep", MobDataTier.ADVANCED, new ItemStack[]{
+            new MobDataCard("Sheep+", MobDataTier.ADVANCED, new ItemStack[]{
                     new SlimefunItemStack(SlimefunItems.RAINBOW_WOOL, 16), new SlimefunItemStack(SlimefunItems.RAINBOW_WOOL, 16), new SlimefunItemStack(SlimefunItems.RAINBOW_WOOL, 16),
                     new SlimefunItemStack(SlimefunItems.RAINBOW_WOOL, 16), MobData.SHEEP, new SlimefunItemStack(SlimefunItems.RAINBOW_WOOL, 16),
                     new SlimefunItemStack(SlimefunItems.RAINBOW_WOOL, 16), new SlimefunItemStack(SlimefunItems.RAINBOW_WOOL, 16), new SlimefunItemStack(SlimefunItems.RAINBOW_WOOL, 16)
