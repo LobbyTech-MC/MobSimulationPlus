@@ -34,7 +34,7 @@ public class MobSimulationPlusItemsSetup {
                     .addDrop(Material.FEATHER, 1)
                     .addDrop(Material.EGG, 1)
                     .register(plugin);
-            new MobDataCard("Rainbow Sheep", MobDataTier.ADVANCED, new ItemStack[]{
+            new MobDataCard("Sheep+", MobDataTier.ADVANCED, new ItemStack[]{
                     new SlimefunItemStack(SlimefunItems.RAINBOW_WOOL, 16), new SlimefunItemStack(SlimefunItems.RAINBOW_WOOL, 16), new SlimefunItemStack(SlimefunItems.RAINBOW_WOOL, 16),
                     new SlimefunItemStack(SlimefunItems.RAINBOW_WOOL, 16), MobData.SHEEP, new SlimefunItemStack(SlimefunItems.RAINBOW_WOOL, 16),
                     new SlimefunItemStack(SlimefunItems.RAINBOW_WOOL, 16), new SlimefunItemStack(SlimefunItems.RAINBOW_WOOL, 16), new SlimefunItemStack(SlimefunItems.RAINBOW_WOOL, 16)
@@ -127,8 +127,13 @@ public class MobSimulationPlusItemsSetup {
                     .addDrop(Material.SUGAR, 1)
                     .addDrop(Material.CAULDRON, 10)
 
-
-
+                    .register(plugin);
+           new MobDataCard("Ghast", MobDataTier.ADVANCED, new ItemStack[]{
+                    new ItemStack(Material.GUNPOWDER, 64), new ItemStack(Material.GHAST_TEAR, 64), new ItemStack(Material.GUNPOWDER, 64),
+                    new ItemStack(Material.GHAST_TEAR, 64), MobData.EMPTY_DATA_CARD, new ItemStack(Material.GHAST_TEAR, 64),
+                    new ItemStack(Material.GUNPOWDER, 64), new ItemStack(Material.GHAST_TEAR, 64), new ItemStack(Material.GUNPOWDER, 64),
+           })
+                    .addDrop(Material.GHAST_TEAR, 1)
                     .register(plugin);
         }
     }
